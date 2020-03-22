@@ -403,7 +403,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#get_started"><span>Home</span></a>
+          <a class="nav-link " href="/#home"><span>Home</span></a>
         </li>
 
         
@@ -510,7 +510,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#about"><span>Über uns</span></a>
+          <a class="nav-link " href="/#people"><span>Über uns</span></a>
         </li>
 
         
@@ -681,7 +681,7 @@
 
     <div class="article-style">
       <p>Die erste Frage die Du beantworten musst ist: Auf welcher Server-Infrastruktur soll BigBlueButton laufen?</p>
-<p>Setze Dich dafür am besten mit der IT-Abteilung deiner Institution in Verbindung. Es kann sein, dass deine Schule oder Universität die passende Infrastruktur schon hat oder zumindest schnell Zugriff darauf haben könnte.</p>
+<p>Setze Dich dafür am besten mit der IT-Abteilung Deiner Institution in Verbindung. Es kann sein, dass Deine Schule oder Universität die passende Infrastruktur schon hat oder zumindest schnell Zugriff darauf haben könnte.</p>
 <h2 id="voraussetzungen-für-bigbluebutton">Voraussetzungen für BigBlueButton</h2>
 <p>Die Mindestvoraussetzungen an einen BigBueButton Server auf dem Online Konferenzen flüssig laufen, sind:</p>
 <ul>
@@ -690,15 +690,16 @@
 <li>4 CPU Kerne (8 sind besser)</li>
 </ul>
 <p>Für 
-<a href="http://lehreonline.org" target="_blank" rel="noopener">lehreonline.org</a> haben wir bei 
+<a href="https://bbb.lehreonline.org" target="_blank" rel="noopener">lehreonline.org</a> haben wir bei 
 <a href="http://hetzner.com" target="_blank" rel="noopener">hetzner.com</a> einen Server in Deutschland mit der folgenden Hardware angemietet:</p>
 <ul>
 <li>32 GB Arbeitsspeicher</li>
 <li>8 CPU Kerne (Intel Core i7-4770)</li>
 <li>2,0 TB Festplatte (um Aufnahmen zu speichern)</li>
 </ul>
-<p>Die Vorteile einer eigenen Infrastruktur liegen auf der Hand und wir beschreiben das hier auch noch ausführlicher.</p>
-<p>Dieses Setup kostet uns ca. 35€ im Monat und sollte ausreichen um von mehreren parallelen Seminaren oder Schulklassen mit bis zu 30 Teilnehmer*innen, bis hin zur Vorlesung mit 150 Teilnehmern einen geeigneten Raum anbieten zu können. Unsere Infrastruktur ermöglicht außerdem die Aufzeichnung der Veranstaltungen.</p>
+<p>Die Vorteile einer eigenen Infrastruktur liegen auf der Hand und wir beschreiben das 
+<a href="../opensource">hier</a> auch noch ausführlicher.</p>
+<p>Dieses Setup kostet uns <strong>ca. 35€ im Monat</strong> und sollte ausreichen um von mehreren parallelen Seminaren oder Schulklassen mit bis zu 30 Teilnehmer*innen, bis hin zur Vorlesung mit 150 Teilnehmern einen geeigneten Raum anbieten zu können. Unsere Infrastruktur ermöglicht außerdem die Aufzeichnung der Veranstaltungen.</p>
 <p>Der Server braucht außerdem eine feste IP-Adresse, damit er einfach aus dem Internet erreichbar ist. Die folgenden Ports müssen erreichbar sein:</p>
 <ul>
 <li>TCP/IP Port 22 für SSH</li>
@@ -706,24 +707,24 @@
 <li>TCP/IP Port 443 für HTTPS</li>
 <li>UDP Ports 16384 bis 32768 für Medien Verbindungen</li>
 </ul>
-<p>Bevor du mit der Installation loslegen kannst, solltest Du Dir auch noch überlegen unter welcher Adresse dein BigBlueButton Server im Internet erreichbar sein soll. Wir haben uns für <code>bbb.lehreonline.org</code> (bbb steht dabei für <strong>B</strong>ig<strong>B</strong>lue<strong>B</strong>utton) entschieden. Diese Adresse kannst du dann bei deinem Domain Name Provider direkt auf die IP Adresse des Servers leiten.</p>
+<p>Bevor Du mit der Installation loslegen kannst, solltest Du Dir auch noch überlegen unter welcher Adresse Dein BigBlueButton Server im Internet erreichbar sein soll. Wir haben uns für <code>bbb.lehreonline.org</code> (bbb steht dabei für <strong>B</strong>ig<strong>B</strong>lue<strong>B</strong>utton) entschieden. Diese Adresse kannst Du dann bei Deinem Domain Name Provider direkt auf die IP Adresse des Servers leiten.</p>
 <h2 id="installiere-bigbluebutton-und-greenlight">Installiere BigBlueButton und Greenlight.</h2>
-<p>Sobald du Zugang zu Deinem Server hast, kannst du <code>BigBlueButton</code> und <code>Greenlight</code> installieren. Die folgenden einfachen Schritte sind ausreichend um in kurzer Zeit ein voll funktionsfähiges System zu installieren. Falls Du dich für die ausführlichere Dokumentation interessierst, findest Du diese 
+<p>Sobald Du Zugang zu Deinem Server hast, kannst Du <code>BigBlueButton</code> und <code>Greenlight</code> installieren. Die folgenden einfachen Schritte sind ausreichend um in kurzer Zeit ein voll funktionsfähiges System zu installieren. Falls Du dich für die ausführlichere Dokumentation interessierst, findest Du diese 
 <a href="https://docs.bigbluebutton.org/" target="_blank" rel="noopener">hier</a>. <code>BigBlueButton</code> ist die Software mit der die Online Räume laufen. <code>Greenlight</code> ist ein einfaches Interface zur Verwaltung der Nutzer und Räume.</p>
 <p>Die Entwickler*innen Community von BigBlueButton hat die Installation außergewöhnlich einfach gemacht!</p>
-<p>Führe den folgenden Befehl auf deinem Server aus:</p>
-<pre><code class="language-shell">wget -qO- https://ubuntu.bigbluebutton.org/bbb-install.sh | bash -s -- -v xenial-220 -s bbb.beispiel.org -e deine.adresse@ebeispiel.org -g
+<p>Führe den folgenden Befehl auf Deinem Server aus:</p>
+<pre><code class="language-shell">wget -qO- https://ubuntu.bigbluebutton.org/bbb-install.sh | bash -s -- -v xenial-220 -s bbb.beispiel.org -e Deine.adresse@ebeispiel.org -g
 </code></pre>
-<p>Bevor du diesen Befehl ausführst, musst Du nur Deine Adresse an die Stelle von <code>bbb.beispiel.org</code> setzen und deine Email Adresse an die Stelle von <code>deine.adresse@ebeispiel.org</code>. Mehr zum Installations Skript von BigBlueButton findest du hier.</p>
+<p>Bevor Du diesen Befehl ausführst, musst Du nur Deine Adresse an die Stelle von <code>bbb.beispiel.org</code> setzen und Deine Email Adresse an die Stelle von <code>Deine.adresse@ebeispiel.org</code>. Mehr zum Installations Skript von BigBlueButton findest Du hier.</p>
 <p>Das Skript führt nun selbstständig alle notwendigen Schritte aus. Je nach Server kann dies zwischen 20 Minuten und einer Stunde dauern. Genug Zeit um dich mit den Funtkionen von BigBlueButton vertraut zu machen.</p>
 <h2 id="richte-dir-deinen-administrations-zugang-ein">Richte Dir Deinen Administrations Zugang ein.</h2>
 <p>Damit Du Deinen Server einfach mit Greenlight verwalten kannst, solltest Du Dir einen Administrations Zugang einrichten. Dies geht ganz einfach indem Du den folgenden Befehl auf Deinem Server ausführst.</p>
-<pre><code class="language-shell">docker exec greenlight-v2 bundle exec rake user:create[&quot;Vorname Nachname&quot;,&quot;deine.adresse@ebeispiel.org&quot;,&quot;administrator&quot;,&quot;admin&quot;]
+<pre><code class="language-shell">docker exec greenlight-v2 bundle exec rake user:create[&quot;Vorname Nachname&quot;,&quot;Deine.adresse@ebeispiel.org&quot;,&quot;administrator&quot;,&quot;admin&quot;]
 </code></pre>
-<p>Mit diesem Befehl erstellst Du einen neuen Nutzer in Greenlight. Dafür solltest du natürlich deinen Namen <code>&quot;Vorname Nachname&quot;</code> und deine Email Adresse <code>&quot;deine.adresse@ebeispiel.org&quot;</code> anpassen. Der dritte Eintrag <code>&quot;administrator&quot;</code> ist Dein Passwort für den Account. Dein Passwort kannst Du danach ganz einfach in Greenlight ändern. Der vierte Eintrag <code>&quot;admin&quot;</code> legt die Administrator Rolle fest. (Falls du einen einfachen Account anlegen möchtest, dann kannst du hier <code>&quot;user&quot;</code> eintragen.)</p>
+<p>Mit diesem Befehl erstellst Du einen neuen Nutzer in Greenlight. Dafür solltest Du natürlich Deinen Namen <code>&quot;Vorname Nachname&quot;</code> und Deine Email Adresse <code>&quot;Deine.adresse@ebeispiel.org&quot;</code> anpassen. Der dritte Eintrag <code>&quot;administrator&quot;</code> ist Dein Passwort für den Account. Dein Passwort kannst Du danach ganz einfach in Greenlight ändern. Der vierte Eintrag <code>&quot;admin&quot;</code> legt die Administrator Rolle fest. (Falls Du einen einfachen Account anlegen möchtest, dann kannst Du hier <code>&quot;user&quot;</code> eintragen.)</p>
 <h2 id="starte-deinen-server">Starte Deinen Server.</h2>
 <p>Jetzt kannst Du Deinen Server neu starten. Nach dem Neustart bist Du fast bereit für Deinen ersten digitalen Raum.</p>
-<p>Zunächst musst Du nur dein BigBlueButton System starten. Die folgenden Schritte solltest du nach jedem Neustart des Servers ausführen.</p>
+<p>Zunächst musst Du nur Dein BigBlueButton System starten. Die folgenden Schritte solltest Du nach jedem Neustart des Servers ausführen.</p>
 <ol>
 <li>Starte BigBlueButton neu.</li>
 </ol>
@@ -748,14 +749,14 @@
 <pre><code class="language-shell">docker-compose up -d
 </code></pre>
 <p>Dieser Befehl startet die Greenlight Oberfläche.</p>
-<p>Jetzt kann es aber wirklich losgehen. Wenn Du in Deinem Browser die Adresse deines BigBlueButton Servers (z.b. 
+<p>Jetzt kann es aber wirklich losgehen. Wenn Du in Deinem Browser die Adresse Deines BigBlueButton Servers (z.b. 
 <a href="https://bbb.lehreonline.org" target="_blank" rel="noopener">bbb.lehreonline.org</a>) aufrufst, solltest Du die folgende Seite sehen.</p>
 <p><img src="./greenlight.png" alt="png"></p>
 <p>Hier kannst Du Dich mit Deinem erstellten Nutzer einloggen und es kann los gehen.</p>
 <h2 id="lade-teilnehmerinnen-zu-deinem-ersten-digitalen-raum-ein">Lade Teilnehmer*innen zu Deinem ersten digitalen Raum ein.</h2>
 <p>Nach dem Login mit Deinem vorhin erstellten Administrator Zugang, kannst Du Deinen ersten digitalen Raum starten. Kopiere den Link zu Deinem Raum und schicke ihn an alle, die in Deinen ersten Online Raum kommen sollen. Dann kannst Du den Raum starten.</p>
 <p>Die Möglichkeiten von BigBlueButton beschreiben wir 
-<a href="#posts/">hier</a>.</p>
+<a href="../bbb_start">hier</a>.</p>
 
     </div>
 
@@ -794,7 +795,7 @@
   <div class="media author-card content-widget-hr">
     
       
-      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu43351ab5de3cb0e13cec82578a5f4415_19606_270x270_fill_lanczos_center_2.png" alt="Avatar">
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu44c1c2f05dff07948be24d743449954c_17062_270x270_fill_lanczos_center_2.png" alt="Avatar">
     
 
     <div class="media-body">
