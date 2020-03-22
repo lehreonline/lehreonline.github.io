@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Lehre Online</title>
-    <link>/categories/</link>
-      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lehreonline.github.io/categories/</link>
+      <atom:link href="https://lehreonline.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>de</language><copyright>© 2020 Lehre Online</copyright>
     <image>
-      <url>/images/logo_hu43351ab5de3cb0e13cec82578a5f4415_19606_300x300_fit_lanczos_2.png</url>
+      <url>https://lehreonline.github.io/images/logo_hu43351ab5de3cb0e13cec82578a5f4415_19606_300x300_fit_lanczos_2.png</url>
       <title>Categories</title>
-      <link>/categories/</link>
+      <link>https://lehreonline.github.io/categories/</link>
     </image>
     
   </channel>

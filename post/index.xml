@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lehre Online Blog | Lehre Online</title>
-    <link>/post/</link>
-      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lehreonline.github.io/post/</link>
+      <atom:link href="https://lehreonline.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Lehre Online Blog</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>de</language><copyright>© 2020 Lehre Online</copyright><lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/logo_hu43351ab5de3cb0e13cec82578a5f4415_19606_300x300_fit_lanczos_2.png</url>
+      <url>https://lehreonline.github.io/images/logo_hu43351ab5de3cb0e13cec82578a5f4415_19606_300x300_fit_lanczos_2.png</url>
       <title>Lehre Online Blog</title>
-      <link>/post/</link>
+      <link>https://lehreonline.github.io/post/</link>
     </image>
     
     <item>
       <title>Warum Open Source?</title>
-      <link>/post/opensource/</link>
+      <link>https://lehreonline.github.io/post/opensource/</link>
       <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/post/opensource/</guid>
+      <guid>https://lehreonline.github.io/post/opensource/</guid>
       <description>&lt;p&gt;Warum sollten gerade öffentliche Bildungseinrichtungen wie Universitäten und Schulen für ihren Online-Lehrbetrieb auf sogenannte Open Source Softwarelösungen anstelle von proprietärer Software wie Zoom oder Google Classroom setzen, selbst wenn letztere oftmals auch kostenlose Produktversionen anbieten? Neben der kostenlosen Anwendung stellt insbesondere der einfache Aufbau von dezentraler (Server-) Infrastruktur, den wir auf dieser Webseite beschreiben, einen wichtigen Vorteil dar. Zunächst gilt es aber zu klären, was wir mit Open Source Lösungen meinen.&lt;/p&gt;
 &lt;h2 id=&#34;was-ist-open-source&#34;&gt;Was ist Open Source?&lt;/h2&gt;
 &lt;p&gt;Der 
@@ -54,9 +54,9 @@
     
     <item>
       <title>Wie kann ich meine eigenen digitalen Räume einrichten?</title>
-      <link>/post/bbb/</link>
+      <link>https://lehreonline.github.io/post/bbb/</link>
       <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/post/bbb/</guid>
+      <guid>https://lehreonline.github.io/post/bbb/</guid>
       <description>&lt;p&gt;Die erste Frage die Du beantworten musst ist: Auf welcher Server-Infrastruktur soll BigBlueButton laufen?&lt;/p&gt;
 &lt;p&gt;Setze Dich dafür am besten mit der IT-Abteilung deiner Institution in Verbindung. Es kann sein, dass deine Schule oder Universität die passende Infrastruktur schon hat oder zumindest schnell Zugriff darauf haben könnte.&lt;/p&gt;
 &lt;h2 id=&#34;voraussetzungen-für-bigbluebutton&#34;&gt;Voraussetzungen für BigBlueButton&lt;/h2&gt;
@@ -138,9 +138,9 @@
     
     <item>
       <title>Erste Schritte mit BigBlueButton.</title>
-      <link>/post/bbb_start/</link>
+      <link>https://lehreonline.github.io/post/bbb_start/</link>
       <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/post/bbb_start/</guid>
+      <guid>https://lehreonline.github.io/post/bbb_start/</guid>
       <description>&lt;p&gt;Nachdem Du es (hoffentlich) geschafft hast,  mit unserer Beschreibung 
 &lt;a href=&#34;#post/bbb&#34;&gt;hier&lt;/a&gt; Deine eigene Serverinfrastruktur aufzusetzen und die Greenlight Oberflächen zu starten, ist es nun an der Zeit, für die erste Online-Sitzung. An dieser Stelle wollen wir Dich daher mit einigen zentralen Funktionen von BigBlueButton vertraut machen.&lt;/p&gt;
 &lt;p&gt;Gebe zunächst die Adresse Deines BigBlueButton Servers (z.B. 
@@ -177,9 +177,9 @@
     
     <item>
       <title>Jitsi Meet.</title>
-      <link>/post/jitsi/</link>
+      <link>https://lehreonline.github.io/post/jitsi/</link>
       <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/post/jitsi/</guid>
+      <guid>https://lehreonline.github.io/post/jitsi/</guid>
       <description>&lt;p&gt;Jitsi Meet ist ein Videokonferenz-Tool und ebenso wie BigBlueButton open source (mehr dazu, was das genau heißt, findest du 
 &lt;a href=&#34;post/opensource&#34;&gt;hier&lt;/a&gt;). Jitsi Meet kann entweder wie BigBlueButton auf einem 
 &lt;a href=&#34;https://jitsi.org/jitsi-meet/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eigenen Server gehostet&lt;/a&gt; oder kostenlos über die 
@@ -208,9 +208,9 @@
     
     <item>
       <title>Tipps und Tricks aus der Praxis.</title>
-      <link>/post/tipps/</link>
+      <link>https://lehreonline.github.io/post/tipps/</link>
       <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/post/tipps/</guid>
+      <guid>https://lehreonline.github.io/post/tipps/</guid>
       <description>&lt;p&gt;Die Infrastruktur steht; doch ist es bei der Umstellung von Präsenzlehre auf E-Learning nicht mit der technischen Umsetzung der Lernumgebung getan. Auch die Art und Weise, wie man unterrichten kann, und die Hilfsmittel, die einem dabei zur Verfügung stehen, unterscheiden sich. Im folgenden teilen wir unsere Erfahrungen, die wir bisher bei der praktischen Umsetzung von E-Learning gemacht haben.&lt;/p&gt;
 &lt;h3 id=&#34;kennenlernen-der-e-learning-infrastruktur&#34;&gt;Kennenlernen der E-Learning-Infrastruktur&lt;/h3&gt;
 &lt;h4 id=&#34;für-lehrende&#34;&gt;für Lehrende&lt;/h4&gt;
