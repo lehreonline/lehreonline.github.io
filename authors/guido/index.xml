@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lehre Online</title>
+    <link>/authors/guido/</link>
+      <atom:link href="/authors/guido/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lehre Online</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>de</language><copyright>© 2020 Lehre Online</copyright><lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hu43351ab5de3cb0e13cec82578a5f4415_19606_300x300_fit_lanczos_2.png</url>
+      <title>Lehre Online</title>
+      <link>/authors/guido/</link>
+    </image>
+    
+    <item>
+      <title>Warum Open Source?</title>
+      <link>/post/opensource/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/post/opensource/</guid>
+      <description>&lt;p&gt;Warum sollten gerade öffentliche Bildungseinrichtungen wie Universitäten und Schulen für ihren Online-Lehrbetrieb auf sogenannte Open Source Softwarelösungen anstelle von proprietärer Software wie Zoom oder Google Classroom setzen, selbst wenn letztere oftmals auch kostenlose Produktversionen anbieten? Neben der kostenlosen Anwendung stellt insbesondere der einfache Aufbau von dezentraler (Server-) Infrastruktur, den wir auf dieser Webseite beschreiben, einen wichtigen Vorteil dar. Zunächst gilt es aber zu klären, was wir mit Open Source Lösungen meinen.&lt;/p&gt;
+&lt;h2 id=&#34;was-ist-open-source&#34;&gt;Was ist Open Source?&lt;/h2&gt;
+&lt;p&gt;Der 
+&lt;a href=&#34;https://opensource.org/osd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Source Initiative&lt;/a&gt; zufolge wird Software als Open Source bezeichnet, wenn deren Quellcode öffentlich zugänglich ist und von Dritten geändert und genutzt werden kann. Bekannte Open Source Projekte sind beispielsweise das Betriebssystem 
+&lt;a href=&#34;https://www.linuxfoundation.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux&lt;/a&gt;, die Versionsverwaltungssoftware 
+&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git&lt;/a&gt; oder die Programmiersprache 
+&lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;. Auch das hier vorgestellte 
+&lt;a href=&#34;https://bigbluebutton.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BigBlueButton (BBB)&lt;/a&gt; ist eine frei zugängliche Open Source Software, die für Web-Konferenzen und Fernstudien entwickelt wurde.&lt;/p&gt;
+&lt;h2 id=&#34;was-sind-die-vorteile-gegenüber-proprietären-lösungen&#34;&gt;Was sind die Vorteile (gegenüber proprietären Lösungen)?&lt;/h2&gt;
+&lt;p&gt;Open Source Software steht sogenannten proprietären Systemen gegenüber, also Software die auf einen Urheber lizensiert ist. Dies sind in der Regel Unternehmen, die die Lizenzen zur Nutzung der Software an einen Endkunden verkaufen, z.B. an Lehrende, Studierende, Schülerinnen und Schüler, Schulen oder Universitäten. Insbesondere mit Blick auf die Bereitstellung von Unterrichts- und Lehrformaten an Schulen und Universitäten ergeben sich daher drei wesentliche Vorteile einer Open Source Softwarelösung:&lt;/p&gt;
+&lt;p&gt;Ein erster Vorteil von Open Source Software ist, dass die &lt;strong&gt;Anwendung von der Software kostenlos ist und bleibt&lt;/strong&gt;. So können auch langfristig keine Gebühren von Lizenzinhabern erhoben werden. Dies ist oftmals anders im Fall von proprietärer Software, deren anfängliche Nutzung zunächst kostenlos ist, für die langfristig dennoch Kosten anfallen können&lt;/p&gt;
+&lt;p&gt;Ein zweiter Vorteil von Open Source Software ist, dass es in der Regel eine große Zahl (freiwillige) Entwickler*innen gibt, die im Internet im &lt;strong&gt;Austausch miteinander&lt;/strong&gt; stehen, um sich &lt;strong&gt;bei Problemen helfen&lt;/strong&gt;. (z.B. im 
+&lt;a href=&#34;https://bigbluebutton.org/support/community/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Community Support von BBB&lt;/a&gt; ). Außerdem fallen so nicht nur Fehler in der Software schnell auf (da der Code offen ist), sondern lassen sich auch schnell lösen. Allerdings steht für Open Source Software normalerweise &lt;strong&gt;kein klassischer technischer Support&lt;/strong&gt; auf Abruf zur Verfügung. Hier ist der oder die Anwender*in von der Community abhängig. Dennoch gibt es viele Unternehmen, die kommerzielle Unterstützung für Open Source Software anbieten. Diese Dienstleistungen erfolgen jedoch gegen Bezahlung, auch wenn die Nutzung der Software auch in diesem Fall weiterhin kostenlos bleibt. Ein Beispiel wäre die 
+&lt;a href=&#34;https://blindsidenetworks.com/services/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blindside Networks&lt;/a&gt;, die Unterstützung für BigBlueButton anbietet.&lt;/p&gt;
+&lt;p&gt;Wie jede andere Software benötigt auch Online-Lehrsoftware Rechenkapazitäten (Hardware), auf denen sie laufen kann. Zuhause ist das der eigene Computer, im Internet laufen Programme auf sogenannten Servern, d.h. leistungsstarken Netzwerkrechnern. Ein dritter Vorteil von Open Source Software ist, dass es die fehlenden Lizenzen erlauben, die Software problemlos auf &lt;strong&gt;eigenen Servern&lt;/strong&gt; laufenzulassen, sodass eine &lt;strong&gt;dezentrale Struktur&lt;/strong&gt; aufgebaut werden kann (wie genau erklären wir 
+&lt;a href=&#34;#bbb&#34;&gt;hier&lt;/a&gt;).  Auf diese Weise bleibt die Nutzung unabhängig von der (Über-) Lastung von zentralen (Server-) Strukturen, wie sie beispielsweise auftreten kann, wenn zu viele Nutzer*innen gleichzeitig eine Software über die gleichen Server nutzen wollen. Gerade in Zeiten, in denen viele Bildungseinrichtungen (weltweit) auf Online-Lehrformate umstellen, ist dies kein unwahrscheinliches Szenario.&lt;/p&gt;
+&lt;h2 id=&#34;ist-die-anwendung-open-source-lösungen-komplett-kostenlos&#34;&gt;Ist die Anwendung Open Source Lösungen komplett kostenlos?&lt;/h2&gt;
+&lt;p&gt;Jein. Die Nutzung von Open Source Software selbst ist wie bereits erwähnt kostenlos. Dies gilt auch für die hier vorgestellte Lösung für Online-Lehrformate, die Nutzung von BigBlueButton.&lt;/p&gt;
+&lt;p&gt;Allerdings wissen wir nicht erst durch Robert A. Heinlein, dass sinngemäß &amp;ldquo;nichts umsonst ist&amp;rdquo; (&lt;strong&gt;&amp;ldquo;there ain’t no such thing as a free lunch&amp;rdquo;&lt;/strong&gt;). Denn selbst wenn die &lt;strong&gt;Nutzung der Software kostenlos&lt;/strong&gt; ist, benötigt sie &lt;strong&gt;Rechnerstrukturen (Server)&lt;/strong&gt;, auf denen die Software laufen kann. Und die Bereitstellung dieser &lt;strong&gt;Infrastruktur kostet Geld&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Hier gibt es nun verschiedene Möglichkeiten, wie und von wem diese Infrastruktur bereitgestellt (und letztendlich bezahlt) werden kann.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Selbst wenn proprietäre Softwarelösungen, wie Google Classroom oder Zoom, teilweise kostenlos und werbefrei sind, so ist es letztendlich dennoch Ziel der Unternehmen, durch die Nutzung Geld zu verdienen. Beispielsweise stand Google bereits in der Kritik, Nutzerdaten auszuspionieren, auch wenn dies 
+&lt;a href=&#34;https://techcrunch.com/2014/04/30/google-stops-mining-education-gmail-and-google-apps-accounts-for-ad-targeting/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mitterweile eingestellt worden zu sein scheint&lt;/a&gt;). Auch empfiehlt der Datenschutzbeauftragte von Rheinland-Pfalz für die Nutzung von Google Classroom u.a. [ausschließlich anonyme/pseudonyme Google-Accounts|(https://www.datenschutz.rlp.de/fileadmin/lfdi/Dokumente/Orientierungshilfen/anforderungen-google-classroom.pdf) zu verwenden. Inwieweit das in der Praxis umsetzbar ist, darf angezweifelt werden. Ähnliches gilt für Zoom, die vielleicht bekannteste Online-Conferencing Software. Sie erlaubt es nicht nur dem Administrator einer Online-Sitzung zu 
+&lt;a href=&#34;https://support.zoom.us/hc/en-us/articles/115000538083-Attendee-attention-tracking&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;verfolgen, wie sich andere Teilnehmer*innen verhalten&lt;/a&gt;, sondern das 
+&lt;a href=&#34;https://zoom.us/privacy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unternehmen selbst sammelt ebenfalls Daten&lt;/a&gt;, wie Name und Adresse, aber auch Kreditkarteninformation und Facebook-Profil. Was genau Zoom mit diesen Informationen macht, bleibt 
+&lt;a href=&#34;https://www.inputmag.com/tech/zooms-attention-tracking-is-ripe-for-misuse-abuse&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;unklar&lt;/a&gt;.  Eine alternative Einnahmequelle für Unternehmen ist die Erhebung von Lizenzgebühren für größere Nutzerzahlen oder die Kosten bei einer langfristigen Nutzung, wenn ein Umstieg auf Open Source aufgrund von Pfadabhängigkeiten für die Bildungseinrichtungen mit großem Aufwand verbunden ist. Denn die Lizenz für die Nutzung liegt zu jedem Zeitpunkt beim Urheber(-unternehmen). Dies erscheint uns &lt;strong&gt;weder kurzfristig noch langfristig eine überzeugende Lösung&lt;/strong&gt; für die Bereitstellung von Bildung.&lt;/li&gt;
+&lt;li&gt;Wesentlich besser, wenn auch nicht ideal, ist im Vergleich die Nutzung von Open Source Programmen, die darüber hinaus kostenlos Serverkapazitäten bereitstellen. Ein gutes Beispiel hierfür ist 
+&lt;a href=&#34;https://meet.jit.si/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jitsi Meet&lt;/a&gt;. Solche Lösungen stellen eine relativ einfache und schnelle Möglichkeit dar, Lehre online anzubieten, wie wir 
+&lt;a href=&#34;#posts/jitsi&#34;&gt;hier&lt;/a&gt; erläutern. Doch auch wenn keine Daten gespeichert werden oder Benutzerkonten angelegt werden müssen, ist es für eine stabil laufende und langfristige Lösung notwendig, eigene Serverkapazitäten bereitzustellen, um unabhängig von anderen Nutzerverhalten und damit überlasteten Servern zu bleiben.&lt;/li&gt;
+&lt;li&gt;Damit kommen wir zur dritten und von uns bevorzugten Möglichkeit, nämlich &lt;strong&gt;Open Source Software auf eigenen Server laufen zu lassen&lt;/strong&gt;. Die Server sind im Idealfall bereits an Universitäten und Schulen vorhanden oder können von Drittanbietern kostengünstig beschaffen werden. Anders als bei Software-Lizenzgebühren sind Kostenstrukturen- und entwicklungen jedoch besser absehbar.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Unserer Meinung nach ist es letztendlich Aufgabe der Universitäten, Schulen, bzw. der Bildungsministerien für diese (Server-) Infrastruktur zu zahlen. Denn für die Präsenzlehre stellt die &lt;strong&gt;öffentliche Hand&lt;/strong&gt; ebenfalls Klassenzimmer, Seminarräume und Vorlesungssäle bereit &amp;mdash; Infrastruktur, die nicht kostenlos ist. Und es sind bzw. sollten &lt;strong&gt;keine Unternehmen&lt;/strong&gt; sein, die Räume für Bildung im Gegenzug für Werbefläche und der Beobachtung von (Konsumenten-) Verhalten zur Verfügung stellen &amp;mdash; auch um die &lt;strong&gt;Freiheit von Wissenschaft und Lehre&lt;/strong&gt; zu wahren. Das Gleiche sollte also auch für Online-Lehrformate gelten. Ebenfalls kann es nicht Aufgabe von Lehrpersonen sein, für diese Infrastruktur aus eigener Tasche zu zahlen. So findet Präsenzlehre ebenfalls nicht in privaten Räumen statt. Und als Bildungseinrichtung darauf zu setzen, dass es immer ausreichend Serverkapazitäten für kostenlose Open Source Anwendungen gibt, ist analog einer Strategie, die darauf setzt, mit der Klasse, dem Seminar oder der ganzen Vorlesung in die Nachbaruni oder Nachbarschule zu gehen und zu hoffen, dass dort schon noch ein Raum frei sein wird. Aufgrund der relativ geringen Kosten und des geringen Aufwands eigene Serverkapazitäten aufzubauen, sehen wir wenig Gründe, weshalb öffentliche Bildungsträger nicht nur selbst &lt;strong&gt;Open Source Software auf eigenen Servern laufen lassen&lt;/strong&gt; können, sondern sogar sollten.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Erste Schritte mit BigBlueButton.</title>
+      <link>/post/bbb_start/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/post/bbb_start/</guid>
+      <description>&lt;p&gt;Nachdem Du es (hoffentlich) geschafft hast,  mit unserer Beschreibung 
+&lt;a href=&#34;#post/bbb&#34;&gt;hier&lt;/a&gt; Deine eigene Serverinfrastruktur aufzusetzen und die Greenlight Oberflächen zu starten, ist es nun an der Zeit, für die erste Online-Sitzung. An dieser Stelle wollen wir Dich daher mit einigen zentralen Funktionen von BigBlueButton vertraut machen.&lt;/p&gt;
+&lt;p&gt;Gebe zunächst die Adresse Deines BigBlueButton Servers (z.B. 
+&lt;a href=&#34;https://bbb.lehreonline.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bbb.lehreonline.org&lt;/a&gt;) in Deinem Browser ein. Du solltest folgende Seite sehen:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./greenlight.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Logge Dich mit Deinem erstellten Nutzerkonto ein. Folgende Startseite erscheint:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./homeroom_de.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Normalerweise reicht es nun, den &lt;strong&gt;Link&lt;/strong&gt; für deinen digitalen Raum zu &lt;strong&gt;kopieren&lt;/strong&gt;, an die Teilnehmer*innen zu &lt;strong&gt;verschicken&lt;/strong&gt; und mit einem Klick auf &lt;code&gt;Starten&lt;/code&gt; bzw. &lt;code&gt;Teilnehmen&lt;/code&gt; die &lt;strong&gt;Sitzung zu beginnen&lt;/strong&gt;. Falls Du übrigens vorher die Sprache ändern möchtest, kannst Du dies mit einem Klick auf Deinen Benutzernamen tun, wo sich unter &amp;ldquo;Profil&amp;rdquo; u.a. auch die Spracheinstellungen bearbeiten lassen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vor der ersten Sitzung&lt;/strong&gt; ist es allerdings empfehlenswert, zunächst einmal eine Sitzung ohne Teilnehmer*innen zu  starten, um sich mit den Funktionen von BigBlueButton vertraut zu machen. Wenn das nicht reicht,  finden sich 
+&lt;a href=&#34;https://bigbluebutton.org/html5/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hier&lt;/a&gt; zudem hilfreiche (englische) Einführungsvideos.&lt;/p&gt;
+&lt;p&gt;Sobald einen digitalen Raum startet, öffnet sich folgendes Popup-Fenster, in dem man auswählen muss, wie man der Konferenz bzw. der Sitzung beitreten will.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./enter_micro.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Als Administrator wählen wir hier natürlich das Mikrofon aus. An dieser Stelle müssen wir dem Webbrowser in der Regel noch bestätigen, dass BigBlueButton auf das Mikrofon zugreifen darf. Danach öffnet sich ein weiteres Fenster, in dem  wir noch bestätigen, dass der Sound funktioniert:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./soundcheck.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Nun gelangen wir auf die &lt;code&gt;Startseite&lt;/code&gt;, auf der wir die verschiedenen Optionen ausprobieren können:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./room.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Unten in der Mitte findest Du die wichtigsten Funktionen:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./hauptkonsole.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Hier kannst Du sowohl Dein Mikrofon als auch Deine Kamera an- und ausstellen. Wenn Du das erste Mal die Kamera einschaltest, musst Du wieder bestätigen, dass BigBlueButton darauf zugreifen darf. Zudem bietet BigBlueButton verschiedene Möglichkeiten, das Materialen einzubauen und das Seminar oder den Unterricht interaktiv zu gestalten.&lt;/p&gt;
+&lt;p&gt;So besteht beispielsweise die Möglichkeit, Deinen gesamten Bildschirm oder aber auch nur ein einzelnes Programm mit den Teilnehmer*innen zu teilen. Da ist insbesondere hilfreich, wenn Dein Seminar auf diesem Programm aufbaut (z.B. in der statistischen Methodenlehre), sodass Du auf diese Weise Funktionen direkt im Programm erklären kannst. Anders als bei Jitsi Meet, bleibt es in diesem Fall auch weiterhin möglich, Dein Video mit den anderen Teilnehmer*innen zu teilen, was die Sitzung eventuell &amp;ldquo;persönlicher&amp;rdquo; wirken lässt.&lt;/p&gt;
+&lt;p&gt;Sehr hilfreich ist zudem die Möglichkeit, eine Präsentation hochzuladen und mit den Teilnehmer*innen zu teilen. Hierzu klickst Du auf das Pluszeichen unten links und wählst die Option &lt;code&gt;Eine Präsentation hochladen&lt;/code&gt; aus:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./presentation.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Auf der folgenden Seite kannst Du Deine Präsentation ganz einfach per Drag&amp;amp;Drop auswählen und hochladen. Zurück auf der Startseite kannst Du Dich dann mit den Pfeiltasten durch die Präsentation manövrieren.&lt;/p&gt;
+&lt;p&gt;Zudem besteht die Möglichkeit durch Auswahl der Zeichenwerkzeuge auf der rechten Seite Notizen und Markierungen in der Präsentation hinzuzufügen. Durch einen Klick auf den &lt;code&gt;Mehrbenutzermodus&lt;/code&gt; kannst Du dies auch für die anderen Teilnehmer*innen ermöglichen, sodass der Bildschirm ähnlich einer Tafel bzw. eines Whiteboards funktioniert.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./mehrbenutzermodus.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Je nach Aufbau Deines Kurses ist zudem das Umfrage-Tool hilfreich, um die Interaktivität zu erhöhen oder sich Zwischenfeedback einzuholen. Du öffnest die Umfrage wieder über einen Klick auf den &lt;code&gt;Kreuz-Button&lt;/code&gt;. Daraufhin öffnen sich verschiedene Möglichkeiten sowohl vordefinierte als auch benutzerdefinierte Umfragen durchzuführen. Dir bleibt zudem die Option überlassen, ob Du das Ergebnis mit den anderen teilen möchtest oder nicht.&lt;/p&gt;
+&lt;p&gt;Abschließend ist unserer Erfahrung auch die öffentliche Chatfunktion auf der linken Seite des Bildschirms eine hilfreiche Ergänzung für den Kursablauf. Hier können Kursteilnehmer*innen nicht nur Fragen stellen, sondern idealerweise auch schon gegenseitig beantworten, ohne dass man selbst als Kursleiter*in eingreifen muss. Hierfür ist zudem die Erstellung sogenannter &lt;code&gt;Breakout Rooms&lt;/code&gt; hilfreich, in denen die Teilnehmer*innen sich in Kleingruppen austauschen und diskutieren können.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./breakoutroom.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Falls Dein Server wider Erwarten doch einmal überlastet sein sollte, kannst Du in den Einstellungen, zu denen du mit einen Klick auf &lt;code&gt;Optionen&lt;/code&gt; in der rechten oberen Ecke gelangst, unter &lt;code&gt;Datenvolumeneinsparung&lt;/code&gt; die Webcams aller Teilnehmer*innen ausschalten.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./datenvolumen.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Unter &lt;code&gt;Optionen&lt;/code&gt; findest Du abschließend auch die Möglichkeit, die Sitzung für alle zu beenden.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

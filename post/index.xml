@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lehre Online Blog | Lehre Online</title>
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lehre Online Blog</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>de</language><copyright>© 2020 Lehre Online</copyright><lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hu43351ab5de3cb0e13cec82578a5f4415_19606_300x300_fit_lanczos_2.png</url>
+      <title>Lehre Online Blog</title>
+      <link>/post/</link>
+    </image>
+    
+    <item>
+      <title>Warum Open Source?</title>
+      <link>/post/opensource/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/post/opensource/</guid>
+      <description>&lt;p&gt;Warum sollten gerade öffentliche Bildungseinrichtungen wie Universitäten und Schulen für ihren Online-Lehrbetrieb auf sogenannte Open Source Softwarelösungen anstelle von proprietärer Software wie Zoom oder Google Classroom setzen, selbst wenn letztere oftmals auch kostenlose Produktversionen anbieten? Neben der kostenlosen Anwendung stellt insbesondere der einfache Aufbau von dezentraler (Server-) Infrastruktur, den wir auf dieser Webseite beschreiben, einen wichtigen Vorteil dar. Zunächst gilt es aber zu klären, was wir mit Open Source Lösungen meinen.&lt;/p&gt;
+&lt;h2 id=&#34;was-ist-open-source&#34;&gt;Was ist Open Source?&lt;/h2&gt;
+&lt;p&gt;Der 
+&lt;a href=&#34;https://opensource.org/osd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Source Initiative&lt;/a&gt; zufolge wird Software als Open Source bezeichnet, wenn deren Quellcode öffentlich zugänglich ist und von Dritten geändert und genutzt werden kann. Bekannte Open Source Projekte sind beispielsweise das Betriebssystem 
+&lt;a href=&#34;https://www.linuxfoundation.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux&lt;/a&gt;, die Versionsverwaltungssoftware 
+&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git&lt;/a&gt; oder die Programmiersprache 
+&lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;. Auch das hier vorgestellte 
+&lt;a href=&#34;https://bigbluebutton.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BigBlueButton (BBB)&lt;/a&gt; ist eine frei zugängliche Open Source Software, die für Web-Konferenzen und Fernstudien entwickelt wurde.&lt;/p&gt;
+&lt;h2 id=&#34;was-sind-die-vorteile-gegenüber-proprietären-lösungen&#34;&gt;Was sind die Vorteile (gegenüber proprietären Lösungen)?&lt;/h2&gt;
+&lt;p&gt;Open Source Software steht sogenannten proprietären Systemen gegenüber, also Software die auf einen Urheber lizensiert ist. Dies sind in der Regel Unternehmen, die die Lizenzen zur Nutzung der Software an einen Endkunden verkaufen, z.B. an Lehrende, Studierende, Schülerinnen und Schüler, Schulen oder Universitäten. Insbesondere mit Blick auf die Bereitstellung von Unterrichts- und Lehrformaten an Schulen und Universitäten ergeben sich daher drei wesentliche Vorteile einer Open Source Softwarelösung:&lt;/p&gt;
+&lt;p&gt;Ein erster Vorteil von Open Source Software ist, dass die &lt;strong&gt;Anwendung von der Software kostenlos ist und bleibt&lt;/strong&gt;. So können auch langfristig keine Gebühren von Lizenzinhabern erhoben werden. Dies ist oftmals anders im Fall von proprietärer Software, deren anfängliche Nutzung zunächst kostenlos ist, für die langfristig dennoch Kosten anfallen können&lt;/p&gt;
+&lt;p&gt;Ein zweiter Vorteil von Open Source Software ist, dass es in der Regel eine große Zahl (freiwillige) Entwickler*innen gibt, die im Internet im &lt;strong&gt;Austausch miteinander&lt;/strong&gt; stehen, um sich &lt;strong&gt;bei Problemen helfen&lt;/strong&gt;. (z.B. im 
+&lt;a href=&#34;https://bigbluebutton.org/support/community/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Community Support von BBB&lt;/a&gt; ). Außerdem fallen so nicht nur Fehler in der Software schnell auf (da der Code offen ist), sondern lassen sich auch schnell lösen. Allerdings steht für Open Source Software normalerweise &lt;strong&gt;kein klassischer technischer Support&lt;/strong&gt; auf Abruf zur Verfügung. Hier ist der oder die Anwender*in von der Community abhängig. Dennoch gibt es viele Unternehmen, die kommerzielle Unterstützung für Open Source Software anbieten. Diese Dienstleistungen erfolgen jedoch gegen Bezahlung, auch wenn die Nutzung der Software auch in diesem Fall weiterhin kostenlos bleibt. Ein Beispiel wäre die 
+&lt;a href=&#34;https://blindsidenetworks.com/services/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blindside Networks&lt;/a&gt;, die Unterstützung für BigBlueButton anbietet.&lt;/p&gt;
+&lt;p&gt;Wie jede andere Software benötigt auch Online-Lehrsoftware Rechenkapazitäten (Hardware), auf denen sie laufen kann. Zuhause ist das der eigene Computer, im Internet laufen Programme auf sogenannten Servern, d.h. leistungsstarken Netzwerkrechnern. Ein dritter Vorteil von Open Source Software ist, dass es die fehlenden Lizenzen erlauben, die Software problemlos auf &lt;strong&gt;eigenen Servern&lt;/strong&gt; laufenzulassen, sodass eine &lt;strong&gt;dezentrale Struktur&lt;/strong&gt; aufgebaut werden kann (wie genau erklären wir 
+&lt;a href=&#34;#bbb&#34;&gt;hier&lt;/a&gt;).  Auf diese Weise bleibt die Nutzung unabhängig von der (Über-) Lastung von zentralen (Server-) Strukturen, wie sie beispielsweise auftreten kann, wenn zu viele Nutzer*innen gleichzeitig eine Software über die gleichen Server nutzen wollen. Gerade in Zeiten, in denen viele Bildungseinrichtungen (weltweit) auf Online-Lehrformate umstellen, ist dies kein unwahrscheinliches Szenario.&lt;/p&gt;
+&lt;h2 id=&#34;ist-die-anwendung-open-source-lösungen-komplett-kostenlos&#34;&gt;Ist die Anwendung Open Source Lösungen komplett kostenlos?&lt;/h2&gt;
+&lt;p&gt;Jein. Die Nutzung von Open Source Software selbst ist wie bereits erwähnt kostenlos. Dies gilt auch für die hier vorgestellte Lösung für Online-Lehrformate, die Nutzung von BigBlueButton.&lt;/p&gt;
+&lt;p&gt;Allerdings wissen wir nicht erst durch Robert A. Heinlein, dass sinngemäß &amp;ldquo;nichts umsonst ist&amp;rdquo; (&lt;strong&gt;&amp;ldquo;there ain’t no such thing as a free lunch&amp;rdquo;&lt;/strong&gt;). Denn selbst wenn die &lt;strong&gt;Nutzung der Software kostenlos&lt;/strong&gt; ist, benötigt sie &lt;strong&gt;Rechnerstrukturen (Server)&lt;/strong&gt;, auf denen die Software laufen kann. Und die Bereitstellung dieser &lt;strong&gt;Infrastruktur kostet Geld&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Hier gibt es nun verschiedene Möglichkeiten, wie und von wem diese Infrastruktur bereitgestellt (und letztendlich bezahlt) werden kann.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Selbst wenn proprietäre Softwarelösungen, wie Google Classroom oder Zoom, teilweise kostenlos und werbefrei sind, so ist es letztendlich dennoch Ziel der Unternehmen, durch die Nutzung Geld zu verdienen. Beispielsweise stand Google bereits in der Kritik, Nutzerdaten auszuspionieren, auch wenn dies 
+&lt;a href=&#34;https://techcrunch.com/2014/04/30/google-stops-mining-education-gmail-and-google-apps-accounts-for-ad-targeting/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mitterweile eingestellt worden zu sein scheint&lt;/a&gt;). Auch empfiehlt der Datenschutzbeauftragte von Rheinland-Pfalz für die Nutzung von Google Classroom u.a. [ausschließlich anonyme/pseudonyme Google-Accounts|(https://www.datenschutz.rlp.de/fileadmin/lfdi/Dokumente/Orientierungshilfen/anforderungen-google-classroom.pdf) zu verwenden. Inwieweit das in der Praxis umsetzbar ist, darf angezweifelt werden. Ähnliches gilt für Zoom, die vielleicht bekannteste Online-Conferencing Software. Sie erlaubt es nicht nur dem Administrator einer Online-Sitzung zu 
+&lt;a href=&#34;https://support.zoom.us/hc/en-us/articles/115000538083-Attendee-attention-tracking&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;verfolgen, wie sich andere Teilnehmer*innen verhalten&lt;/a&gt;, sondern das 
+&lt;a href=&#34;https://zoom.us/privacy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unternehmen selbst sammelt ebenfalls Daten&lt;/a&gt;, wie Name und Adresse, aber auch Kreditkarteninformation und Facebook-Profil. Was genau Zoom mit diesen Informationen macht, bleibt 
+&lt;a href=&#34;https://www.inputmag.com/tech/zooms-attention-tracking-is-ripe-for-misuse-abuse&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;unklar&lt;/a&gt;.  Eine alternative Einnahmequelle für Unternehmen ist die Erhebung von Lizenzgebühren für größere Nutzerzahlen oder die Kosten bei einer langfristigen Nutzung, wenn ein Umstieg auf Open Source aufgrund von Pfadabhängigkeiten für die Bildungseinrichtungen mit großem Aufwand verbunden ist. Denn die Lizenz für die Nutzung liegt zu jedem Zeitpunkt beim Urheber(-unternehmen). Dies erscheint uns &lt;strong&gt;weder kurzfristig noch langfristig eine überzeugende Lösung&lt;/strong&gt; für die Bereitstellung von Bildung.&lt;/li&gt;
+&lt;li&gt;Wesentlich besser, wenn auch nicht ideal, ist im Vergleich die Nutzung von Open Source Programmen, die darüber hinaus kostenlos Serverkapazitäten bereitstellen. Ein gutes Beispiel hierfür ist 
+&lt;a href=&#34;https://meet.jit.si/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jitsi Meet&lt;/a&gt;. Solche Lösungen stellen eine relativ einfache und schnelle Möglichkeit dar, Lehre online anzubieten, wie wir 
+&lt;a href=&#34;#posts/jitsi&#34;&gt;hier&lt;/a&gt; erläutern. Doch auch wenn keine Daten gespeichert werden oder Benutzerkonten angelegt werden müssen, ist es für eine stabil laufende und langfristige Lösung notwendig, eigene Serverkapazitäten bereitzustellen, um unabhängig von anderen Nutzerverhalten und damit überlasteten Servern zu bleiben.&lt;/li&gt;
+&lt;li&gt;Damit kommen wir zur dritten und von uns bevorzugten Möglichkeit, nämlich &lt;strong&gt;Open Source Software auf eigenen Server laufen zu lassen&lt;/strong&gt;. Die Server sind im Idealfall bereits an Universitäten und Schulen vorhanden oder können von Drittanbietern kostengünstig beschaffen werden. Anders als bei Software-Lizenzgebühren sind Kostenstrukturen- und entwicklungen jedoch besser absehbar.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Unserer Meinung nach ist es letztendlich Aufgabe der Universitäten, Schulen, bzw. der Bildungsministerien für diese (Server-) Infrastruktur zu zahlen. Denn für die Präsenzlehre stellt die &lt;strong&gt;öffentliche Hand&lt;/strong&gt; ebenfalls Klassenzimmer, Seminarräume und Vorlesungssäle bereit &amp;mdash; Infrastruktur, die nicht kostenlos ist. Und es sind bzw. sollten &lt;strong&gt;keine Unternehmen&lt;/strong&gt; sein, die Räume für Bildung im Gegenzug für Werbefläche und der Beobachtung von (Konsumenten-) Verhalten zur Verfügung stellen &amp;mdash; auch um die &lt;strong&gt;Freiheit von Wissenschaft und Lehre&lt;/strong&gt; zu wahren. Das Gleiche sollte also auch für Online-Lehrformate gelten. Ebenfalls kann es nicht Aufgabe von Lehrpersonen sein, für diese Infrastruktur aus eigener Tasche zu zahlen. So findet Präsenzlehre ebenfalls nicht in privaten Räumen statt. Und als Bildungseinrichtung darauf zu setzen, dass es immer ausreichend Serverkapazitäten für kostenlose Open Source Anwendungen gibt, ist analog einer Strategie, die darauf setzt, mit der Klasse, dem Seminar oder der ganzen Vorlesung in die Nachbaruni oder Nachbarschule zu gehen und zu hoffen, dass dort schon noch ein Raum frei sein wird. Aufgrund der relativ geringen Kosten und des geringen Aufwands eigene Serverkapazitäten aufzubauen, sehen wir wenig Gründe, weshalb öffentliche Bildungsträger nicht nur selbst &lt;strong&gt;Open Source Software auf eigenen Servern laufen lassen&lt;/strong&gt; können, sondern sogar sollten.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wie kann ich meine eigenen digitalen Räume einrichten?</title>
+      <link>/post/bbb/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/post/bbb/</guid>
+      <description>&lt;p&gt;Die erste Frage die Du beantworten musst ist: Auf welcher Server-Infrastruktur soll BigBlueButton laufen?&lt;/p&gt;
+&lt;p&gt;Setze Dich dafür am besten mit der IT-Abteilung deiner Institution in Verbindung. Es kann sein, dass deine Schule oder Universität die passende Infrastruktur schon hat oder zumindest schnell Zugriff darauf haben könnte.&lt;/p&gt;
+&lt;h2 id=&#34;voraussetzungen-für-bigbluebutton&#34;&gt;Voraussetzungen für BigBlueButton&lt;/h2&gt;
+&lt;p&gt;Die Mindestvoraussetzungen an einen BigBueButton Server auf dem Online Konferenzen flüssig laufen, sind:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 16.04 64-bit OS mit Linux kernel 4.x&lt;/li&gt;
+&lt;li&gt;4 GB Arbeitsspeicher (RAM) mit aktiviertem Swap (8 GB Arbeitsspeicher sind besser)&lt;/li&gt;
+&lt;li&gt;4 CPU Kerne (8 sind besser)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Für 
+&lt;a href=&#34;http://lehreonline.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;lehreonline.org&lt;/a&gt; haben wir bei 
+&lt;a href=&#34;http://hetzner.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hetzner.com&lt;/a&gt; einen Server in Deutschland mit der folgenden Hardware angemietet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;32 GB Arbeitsspeicher&lt;/li&gt;
+&lt;li&gt;8 CPU Kerne (Intel Core i7-4770)&lt;/li&gt;
+&lt;li&gt;2,0 TB Festplatte (um Aufnahmen zu speichern)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Die Vorteile einer eigenen Infrastruktur liegen auf der Hand und wir beschreiben das hier auch noch ausführlicher.&lt;/p&gt;
+&lt;p&gt;Dieses Setup kostet uns ca. 35€ im Monat und sollte ausreichen um von mehreren parallelen Seminaren oder Schulklassen mit bis zu 30 Teilnehmer*innen, bis hin zur Vorlesung mit 150 Teilnehmern einen geeigneten Raum anbieten zu können. Unsere Infrastruktur ermöglicht außerdem die Aufzeichnung der Veranstaltungen.&lt;/p&gt;
+&lt;p&gt;Der Server braucht außerdem eine feste IP-Adresse, damit er einfach aus dem Internet erreichbar ist. Die folgenden Ports müssen erreichbar sein:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TCP/IP Port 22 für SSH&lt;/li&gt;
+&lt;li&gt;TCP/IP Port 80 für HTTP&lt;/li&gt;
+&lt;li&gt;TCP/IP Port 443 für HTTPS&lt;/li&gt;
+&lt;li&gt;UDP Ports 16384 bis 32768 für Medien Verbindungen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bevor du mit der Installation loslegen kannst, solltest Du Dir auch noch überlegen unter welcher Adresse dein BigBlueButton Server im Internet erreichbar sein soll. Wir haben uns für &lt;code&gt;bbb.lehreonline.org&lt;/code&gt; (bbb steht dabei für &lt;strong&gt;B&lt;/strong&gt;ig&lt;strong&gt;B&lt;/strong&gt;lue&lt;strong&gt;B&lt;/strong&gt;utton) entschieden. Diese Adresse kannst du dann bei deinem Domain Name Provider direkt auf die IP Adresse des Servers leiten.&lt;/p&gt;
+&lt;h2 id=&#34;installiere-bigbluebutton-und-greenlight&#34;&gt;Installiere BigBlueButton und Greenlight.&lt;/h2&gt;
+&lt;p&gt;Sobald du Zugang zu Deinem Server hast, kannst du &lt;code&gt;BigBlueButton&lt;/code&gt; und &lt;code&gt;Greenlight&lt;/code&gt; installieren. Die folgenden einfachen Schritte sind ausreichend um in kurzer Zeit ein voll funktionsfähiges System zu installieren. Falls Du dich für die ausführlichere Dokumentation interessierst, findest Du diese 
+&lt;a href=&#34;https://docs.bigbluebutton.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hier&lt;/a&gt;. &lt;code&gt;BigBlueButton&lt;/code&gt; ist die Software mit der die Online Räume laufen. &lt;code&gt;Greenlight&lt;/code&gt; ist ein einfaches Interface zur Verwaltung der Nutzer und Räume.&lt;/p&gt;
+&lt;p&gt;Die Entwickler*innen Community von BigBlueButton hat die Installation außergewöhnlich einfach gemacht!&lt;/p&gt;
+&lt;p&gt;Führe den folgenden Befehl auf deinem Server aus:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;wget -qO- https://ubuntu.bigbluebutton.org/bbb-install.sh | bash -s -- -v xenial-220 -s bbb.beispiel.org -e deine.adresse@ebeispiel.org -g
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Bevor du diesen Befehl ausführst, musst Du nur Deine Adresse an die Stelle von &lt;code&gt;bbb.beispiel.org&lt;/code&gt; setzen und deine Email Adresse an die Stelle von &lt;code&gt;deine.adresse@ebeispiel.org&lt;/code&gt;. Mehr zum Installations Skript von BigBlueButton findest du hier.&lt;/p&gt;
+&lt;p&gt;Das Skript führt nun selbstständig alle notwendigen Schritte aus. Je nach Server kann dies zwischen 20 Minuten und einer Stunde dauern. Genug Zeit um dich mit den Funtkionen von BigBlueButton vertraut zu machen.&lt;/p&gt;
+&lt;h2 id=&#34;richte-dir-deinen-administrations-zugang-ein&#34;&gt;Richte Dir Deinen Administrations Zugang ein.&lt;/h2&gt;
+&lt;p&gt;Damit Du Deinen Server einfach mit Greenlight verwalten kannst, solltest Du Dir einen Administrations Zugang einrichten. Dies geht ganz einfach indem Du den folgenden Befehl auf Deinem Server ausführst.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;docker exec greenlight-v2 bundle exec rake user:create[&amp;quot;Vorname Nachname&amp;quot;,&amp;quot;deine.adresse@ebeispiel.org&amp;quot;,&amp;quot;administrator&amp;quot;,&amp;quot;admin&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Mit diesem Befehl erstellst Du einen neuen Nutzer in Greenlight. Dafür solltest du natürlich deinen Namen &lt;code&gt;&amp;quot;Vorname Nachname&amp;quot;&lt;/code&gt; und deine Email Adresse &lt;code&gt;&amp;quot;deine.adresse@ebeispiel.org&amp;quot;&lt;/code&gt; anpassen. Der dritte Eintrag &lt;code&gt;&amp;quot;administrator&amp;quot;&lt;/code&gt; ist Dein Passwort für den Account. Dein Passwort kannst Du danach ganz einfach in Greenlight ändern. Der vierte Eintrag &lt;code&gt;&amp;quot;admin&amp;quot;&lt;/code&gt; legt die Administrator Rolle fest. (Falls du einen einfachen Account anlegen möchtest, dann kannst du hier &lt;code&gt;&amp;quot;user&amp;quot;&lt;/code&gt; eintragen.)&lt;/p&gt;
+&lt;h2 id=&#34;starte-deinen-server&#34;&gt;Starte Deinen Server.&lt;/h2&gt;
+&lt;p&gt;Jetzt kannst Du Deinen Server neu starten. Nach dem Neustart bist Du fast bereit für Deinen ersten digitalen Raum.&lt;/p&gt;
+&lt;p&gt;Zunächst musst Du nur dein BigBlueButton System starten. Die folgenden Schritte solltest du nach jedem Neustart des Servers ausführen.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Starte BigBlueButton neu.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;bbb-conf --restart
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Dieser Befehl startet das BigBlueButton Programm neu.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Starte den ngnix Web-Server.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;systemctl restart nginx
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Damit wird der nginx Web-Server für die Greenlight Oberfläche neu gestartet.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Navigiere zu Greenlight.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;cd greenlight
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Damit navigierst Du in den Ordner der Greenlight Oberfläche.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Starte Greenlight.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;docker-compose up -d
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Dieser Befehl startet die Greenlight Oberfläche.&lt;/p&gt;
+&lt;p&gt;Jetzt kann es aber wirklich losgehen. Wenn Du in Deinem Browser die Adresse deines BigBlueButton Servers (z.b. 
+&lt;a href=&#34;https://bbb.lehreonline.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bbb.lehreonline.org&lt;/a&gt;) aufrufst, solltest Du die folgende Seite sehen.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./greenlight.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Hier kannst Du Dich mit Deinem erstellten Nutzer einloggen und es kann los gehen.&lt;/p&gt;
+&lt;h2 id=&#34;lade-teilnehmerinnen-zu-deinem-ersten-digitalen-raum-ein&#34;&gt;Lade Teilnehmer*innen zu Deinem ersten digitalen Raum ein.&lt;/h2&gt;
+&lt;p&gt;Nach dem Login mit Deinem vorhin erstellten Administrator Zugang, kannst Du Deinen ersten digitalen Raum starten. Kopiere den Link zu Deinem Raum und schicke ihn an alle, die in Deinen ersten Online Raum kommen sollen. Dann kannst Du den Raum starten.&lt;/p&gt;
+&lt;p&gt;Die Möglichkeiten von BigBlueButton beschreiben wir 
+&lt;a href=&#34;#posts/&#34;&gt;hier&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Erste Schritte mit BigBlueButton.</title>
+      <link>/post/bbb_start/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/post/bbb_start/</guid>
+      <description>&lt;p&gt;Nachdem Du es (hoffentlich) geschafft hast,  mit unserer Beschreibung 
+&lt;a href=&#34;#post/bbb&#34;&gt;hier&lt;/a&gt; Deine eigene Serverinfrastruktur aufzusetzen und die Greenlight Oberflächen zu starten, ist es nun an der Zeit, für die erste Online-Sitzung. An dieser Stelle wollen wir Dich daher mit einigen zentralen Funktionen von BigBlueButton vertraut machen.&lt;/p&gt;
+&lt;p&gt;Gebe zunächst die Adresse Deines BigBlueButton Servers (z.B. 
+&lt;a href=&#34;https://bbb.lehreonline.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bbb.lehreonline.org&lt;/a&gt;) in Deinem Browser ein. Du solltest folgende Seite sehen:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./greenlight.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Logge Dich mit Deinem erstellten Nutzerkonto ein. Folgende Startseite erscheint:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./homeroom_de.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Normalerweise reicht es nun, den &lt;strong&gt;Link&lt;/strong&gt; für deinen digitalen Raum zu &lt;strong&gt;kopieren&lt;/strong&gt;, an die Teilnehmer*innen zu &lt;strong&gt;verschicken&lt;/strong&gt; und mit einem Klick auf &lt;code&gt;Starten&lt;/code&gt; bzw. &lt;code&gt;Teilnehmen&lt;/code&gt; die &lt;strong&gt;Sitzung zu beginnen&lt;/strong&gt;. Falls Du übrigens vorher die Sprache ändern möchtest, kannst Du dies mit einem Klick auf Deinen Benutzernamen tun, wo sich unter &amp;ldquo;Profil&amp;rdquo; u.a. auch die Spracheinstellungen bearbeiten lassen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vor der ersten Sitzung&lt;/strong&gt; ist es allerdings empfehlenswert, zunächst einmal eine Sitzung ohne Teilnehmer*innen zu  starten, um sich mit den Funktionen von BigBlueButton vertraut zu machen. Wenn das nicht reicht,  finden sich 
+&lt;a href=&#34;https://bigbluebutton.org/html5/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hier&lt;/a&gt; zudem hilfreiche (englische) Einführungsvideos.&lt;/p&gt;
+&lt;p&gt;Sobald einen digitalen Raum startet, öffnet sich folgendes Popup-Fenster, in dem man auswählen muss, wie man der Konferenz bzw. der Sitzung beitreten will.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./enter_micro.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Als Administrator wählen wir hier natürlich das Mikrofon aus. An dieser Stelle müssen wir dem Webbrowser in der Regel noch bestätigen, dass BigBlueButton auf das Mikrofon zugreifen darf. Danach öffnet sich ein weiteres Fenster, in dem  wir noch bestätigen, dass der Sound funktioniert:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./soundcheck.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Nun gelangen wir auf die &lt;code&gt;Startseite&lt;/code&gt;, auf der wir die verschiedenen Optionen ausprobieren können:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./room.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Unten in der Mitte findest Du die wichtigsten Funktionen:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./hauptkonsole.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Hier kannst Du sowohl Dein Mikrofon als auch Deine Kamera an- und ausstellen. Wenn Du das erste Mal die Kamera einschaltest, musst Du wieder bestätigen, dass BigBlueButton darauf zugreifen darf. Zudem bietet BigBlueButton verschiedene Möglichkeiten, das Materialen einzubauen und das Seminar oder den Unterricht interaktiv zu gestalten.&lt;/p&gt;
+&lt;p&gt;So besteht beispielsweise die Möglichkeit, Deinen gesamten Bildschirm oder aber auch nur ein einzelnes Programm mit den Teilnehmer*innen zu teilen. Da ist insbesondere hilfreich, wenn Dein Seminar auf diesem Programm aufbaut (z.B. in der statistischen Methodenlehre), sodass Du auf diese Weise Funktionen direkt im Programm erklären kannst. Anders als bei Jitsi Meet, bleibt es in diesem Fall auch weiterhin möglich, Dein Video mit den anderen Teilnehmer*innen zu teilen, was die Sitzung eventuell &amp;ldquo;persönlicher&amp;rdquo; wirken lässt.&lt;/p&gt;
+&lt;p&gt;Sehr hilfreich ist zudem die Möglichkeit, eine Präsentation hochzuladen und mit den Teilnehmer*innen zu teilen. Hierzu klickst Du auf das Pluszeichen unten links und wählst die Option &lt;code&gt;Eine Präsentation hochladen&lt;/code&gt; aus:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./presentation.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Auf der folgenden Seite kannst Du Deine Präsentation ganz einfach per Drag&amp;amp;Drop auswählen und hochladen. Zurück auf der Startseite kannst Du Dich dann mit den Pfeiltasten durch die Präsentation manövrieren.&lt;/p&gt;
+&lt;p&gt;Zudem besteht die Möglichkeit durch Auswahl der Zeichenwerkzeuge auf der rechten Seite Notizen und Markierungen in der Präsentation hinzuzufügen. Durch einen Klick auf den &lt;code&gt;Mehrbenutzermodus&lt;/code&gt; kannst Du dies auch für die anderen Teilnehmer*innen ermöglichen, sodass der Bildschirm ähnlich einer Tafel bzw. eines Whiteboards funktioniert.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./mehrbenutzermodus.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Je nach Aufbau Deines Kurses ist zudem das Umfrage-Tool hilfreich, um die Interaktivität zu erhöhen oder sich Zwischenfeedback einzuholen. Du öffnest die Umfrage wieder über einen Klick auf den &lt;code&gt;Kreuz-Button&lt;/code&gt;. Daraufhin öffnen sich verschiedene Möglichkeiten sowohl vordefinierte als auch benutzerdefinierte Umfragen durchzuführen. Dir bleibt zudem die Option überlassen, ob Du das Ergebnis mit den anderen teilen möchtest oder nicht.&lt;/p&gt;
+&lt;p&gt;Abschließend ist unserer Erfahrung auch die öffentliche Chatfunktion auf der linken Seite des Bildschirms eine hilfreiche Ergänzung für den Kursablauf. Hier können Kursteilnehmer*innen nicht nur Fragen stellen, sondern idealerweise auch schon gegenseitig beantworten, ohne dass man selbst als Kursleiter*in eingreifen muss. Hierfür ist zudem die Erstellung sogenannter &lt;code&gt;Breakout Rooms&lt;/code&gt; hilfreich, in denen die Teilnehmer*innen sich in Kleingruppen austauschen und diskutieren können.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./breakoutroom.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Falls Dein Server wider Erwarten doch einmal überlastet sein sollte, kannst Du in den Einstellungen, zu denen du mit einen Klick auf &lt;code&gt;Optionen&lt;/code&gt; in der rechten oberen Ecke gelangst, unter &lt;code&gt;Datenvolumeneinsparung&lt;/code&gt; die Webcams aller Teilnehmer*innen ausschalten.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./datenvolumen.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Unter &lt;code&gt;Optionen&lt;/code&gt; findest Du abschließend auch die Möglichkeit, die Sitzung für alle zu beenden.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jitsi Meet.</title>
+      <link>/post/jitsi/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/post/jitsi/</guid>
+      <description>&lt;p&gt;Jitsi Meet ist ein Videokonferenz-Tool und ebenso wie BigBlueButton open source (mehr dazu, was das genau heißt, findest du 
+&lt;a href=&#34;post/opensource&#34;&gt;hier&lt;/a&gt;). Jitsi Meet kann entweder wie BigBlueButton auf einem 
+&lt;a href=&#34;https://jitsi.org/jitsi-meet/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eigenen Server gehostet&lt;/a&gt; oder kostenlos über die 
+&lt;a href=&#34;https://meet.jit.si/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Server von Jitsi&lt;/a&gt; genutzt werden (zu den Vor- und Nachteilen beider Lösungen siehe 
+&lt;a href=&#34;post/opensource&#34;&gt;ebenfalls&lt;/a&gt;). Außerdem gibt es eine App für iOS und Android sowie die Möglichkeit, Jitsi Meet in Slack einzubinden &amp;ndash; falls du das zum Beispiel sowieso schon im Rahmen deiner Veranstaltung nutzt.&lt;/p&gt;
+&lt;p&gt;Für Jitsi brauchen weder Lehrende/r noch Teilnehmende einen Account; die Anwendung wird einfach im Webbrowser geöffnet. Jitsi selbst empfiehlt die Nutzung von 
+&lt;a href=&#34;https://www.google.com/chrome/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chrome&lt;/a&gt;, 
+&lt;a href=&#34;https://www.mozilla.org/de/firefox/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Firefox&lt;/a&gt; hat unserer Erfahrung nach aber auch problemlos funktioniert &amp;ndash; 
+&lt;a href=&#34;https://www.apple.com/safari/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Safari&lt;/a&gt; allerdings nicht. Diese Information solltest du vorab an die Teilnehmenden weitergeben; sie war bei uns in der ersten Sitzung Problemquelle Nummer 1.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;jitsi-start-screen.png&#34; alt=&#34;Jitsi Meet Startbildschirm&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Um eine Jitsi Meet-Sitzung zu starten, gibst du einfach einen Namen für die Sitzung ein, startest die Sitzung und erlaubst Jitsi, auf dein Mikrofon (und deine Kamera) zuzugreifen. Am besten wählst du einen Sitzungsnamen, der nicht zu allgemein und häufig ist, sonst kann es schon mal passieren, dass man mit wildfremden Leuten in einer Videokonferenz landet, die auf die gleiche Namensidee gekommen sind. Ansonsten kannst du der Sitzung auch durch ein Klick auf das &lt;strong&gt;i&lt;/strong&gt; ein Passwort zuweisen, das verhindert, dass unerwünschte Gäste an deiner Videokonferenz teilnehmen.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;jitsi-info.png&#34; alt=&#34;Freigabe- und Einwahlinformationen&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Über die &lt;strong&gt;i&lt;/strong&gt;-Schaltfläche kannst du auch den Link zur Videokonferenz und die Zugangsdaten kopieren, um diese an die Teilnehmenden zu schicken.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;jitsi-tools.png&#34; alt=&#34;Möglichkeiten zur Interaktion&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Die wichtigsten Tools zur Interaktion miteinander finden sich unten links im Bildschirm. Über das Bildschirmsymbol kannst du einzelne Fenster oder den gesamte Bildschirm übertragen (die Auswahl wird im Popup in der Adresszeile des Browsers getroffen) und die Bildschirmübertragung durch nochmaliges Klicken auf das Symbol auch wieder beenden. Mit dem Handsymbol können dir die Teilnehmenden signalisieren, dass sie gerne sprechen würden. Dieses Tool lässt sich auch wunderbar als Feedback nutzen, z.B. indem man die Teilnehmenden auffordert, die Hand zu &amp;ldquo;heben&amp;rdquo;, wenn sie mit einer Aufgabe fertig sind. Mittels des Sprechblasensymbols kannst du die Sidebar für den Chat ein- und ausblenden. Unten in der Mitte des Fensters findest du die Schaltflächen, um dein Mikrofon ein- und auszuschalten, die Videokonferenz zu beenden und deine Kamera ein- und auszuschalten.&lt;/p&gt;
+&lt;p&gt;Hier noch ein paar weitere Punkte, die für einen möglichst reibungslosen Ablauf gut zu wissen sind:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Die erste Person, die einer Sitzung beitritt ist automatisch auch der Administrator/Moderator. Um sicherzugehen, dass du die erste Person in der Sitzung bist, kannst du entweder den Link zur Sitzung erst kurz vor Beginn verschicken oder die Teilnehmenden bitten, sich nicht früher als bspw. 15 Minuten vor Beginn der Sitzung anzumelden.&lt;/li&gt;
+&lt;li&gt;Da man keinen Account erstellt, erscheinen alle neuen Teilnehmenden als &amp;ldquo;Fellow Jitsis&amp;rdquo; in der Videokonferenz. Jede/r kann sich durch einen Doppelklick auf den eigenen Benutzer umbenennen. Das hat auch den Vorteil, dass man alle direkt mit Namen ansprechen kann.&lt;/li&gt;
+&lt;li&gt;Eine gleichzeitiges Teilen von Bildschirm und Video ist entgegen dessen, was auf der Jitsi-Webseite steht, (momentan) nicht möglich.&lt;/li&gt;
+&lt;li&gt;Wir hatten ab und zu das Problem, dass Teilnehmende, die während einer Bildschirmübertragung später zur Sitzung hinzugestoßen sind, den übertragenen Bildschirm nicht sehen konnten. In diesem Fall, einfach einmal kurz die Bildschirmübertragung beenden und den Bildschirm wieder neu übertragen.&lt;/li&gt;
+&lt;li&gt;Alle anderen technischen Probleme bei den Teilnehmenden, wie z.B. eine stehengebliebene Bildschirmübertragung oder kein Audiosignal, ließen sich bisher immer durch einen einfachen Neustart der Videokonferenz lösen.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tipps und Tricks aus der Praxis.</title>
+      <link>/post/tipps/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/post/tipps/</guid>
+      <description>&lt;p&gt;Die Infrastruktur steht; doch ist es bei der Umstellung von Präsenzlehre auf E-Learning nicht mit der technischen Umsetzung der Lernumgebung getan. Auch die Art und Weise, wie man unterrichten kann, und die Hilfsmittel, die einem dabei zur Verfügung stehen, unterscheiden sich. Im folgenden teilen wir unsere Erfahrungen, die wir bisher bei der praktischen Umsetzung von E-Learning gemacht haben.&lt;/p&gt;
+&lt;h3 id=&#34;kennenlernen-der-e-learning-infrastruktur&#34;&gt;Kennenlernen der E-Learning-Infrastruktur&lt;/h3&gt;
+&lt;h4 id=&#34;für-lehrende&#34;&gt;für Lehrende&lt;/h4&gt;
+&lt;p&gt;Die Nutzung der E-Learning-Anwendung ist vermutlich sowohl für dich als auch für die Lernenden neu. Bevor du diese das erste Mal in Lehre oder Unterricht einsetzt, mache einen kurzen Testlauf mit KollegInnen oder einer kleinen Gruppe von Studierenden oder SchülerInnen, um sicherzugehen, dass später während der eigentlichen Veranstaltung(en) möglichst wenig technische Probleme auftreten (bspw. durch eine Firewall, die Nutzung verschiedener Webbrowser, Webcam und Mikrofon etc.). Probiere in diesem Testlauf am besten alle möglichen Szenarien aus, die dir einfallen. Ist es zum Beispiel problemlos möglich, dass Lernende während der Veranstaltung hinzustoßen? Oder was passiert, wenn die Internetverbindung kurzzeitig ausfällt?&lt;br&gt;
+Zusätzlich schadet es sicher auch nicht, Hilfe mit sämtlicher anderer Infrastruktur anzubieten, auf die Teilnehmende in Verbindung mit der Veranstaltung aufgrund der derzeitigen Situation angewiesen sind. Manche Studierenden haben vielleicht beispielsweise noch nie einen wissenschaftlichen Artikel außerhalb des Uni-Netzwerks heruntergeladen.
+Wichtig ist auch, einen offenen Raum für die Lernbedingungen und anderen Umstände der Lernenden zu schaffen. Vielleicht haben nicht alle Zugang zu einem eigenen Computer oder eine ausreichend schnelle Internetverbindung zu Hause. Überlege, wie du in diesen Fällen unterstützend wirken kannst, beispielsweise durch ein Aufzeichnen und Hochladen der Sitzungen als Ergänzung zur synchronen Online-Lehre.&lt;/p&gt;
+&lt;h4 id=&#34;und-lernende&#34;&gt;und Lernende&lt;/h4&gt;
+&lt;p&gt;Wenn es zeitlich möglich ist, schadet es sicher nicht, vor der ersten inhaltlichen Sitzung eine Testsitzung mit allen Teilnehmenden zu machen, damit sich alle mit den gewählten Online-Lehr-Tools vertraut machen können. Ansonsten sollte zu Beginn der ersten regulären Sitzung etwas Zeit dafür eingeplant werden (unser Erfahrungswert liegt bei ca. 10 Minuten). Obwohl die meisten Funktionen der Anwendungen relativ intuitiv sind, ist für die Teilnehmenden eventuell nicht direkt klar, wie du diese in der Online-Lehre einsetzen möchtest. Zeige ihnen daher einfach am Anfang wie sie die Chatfunktion nutzen, ihr Mikrofon einschalten oder ihren Bildschirm teilen können &amp;ndash; und gib ihnen Zeit, alles auszuprobieren. Falls es möglich ist, dann schalte dich der Testsitzung zu Demonstrationszwecken doch über einen zweiten Benutzer im Teilnehmermodus zu, da sich die Ansicht für ModeratorInnen und Teilnehmende oft unterscheidet und so keine Verwirrung enstehen kann. Vielleicht hast du ja sogar Zeit, ein kurzes Dokument (ggf. mit Screenshots) aufzusetzen, mit dem deine KursteilnehmerInnen sich schon vor der ersten Sitzung mit der Anwendung vertraut machen können.&lt;/p&gt;
+&lt;h3 id=&#34;ein-mäglichst-reibungsloser-ablauf-der-sitzungen&#34;&gt;Ein mäglichst reibungsloser Ablauf der Sitzungen&lt;/h3&gt;
+&lt;h4 id=&#34;stumm-schalten&#34;&gt;Stumm schalten&lt;/h4&gt;
+&lt;p&gt;Schalte die Mikrofone aller Teilnehmenden von Beginn der Veranstaltung an auf stumm, um Störungen durch ständige Hintergrundgeräusche zu vermeiden. Teilnehmende können über ein virtuelles Handheben oder den Chat signalisieren, dass sie gerne etwas sagen würden und dann auf Aufforderung ihr Mikrofon einschalten &amp;ndash; genauso wie sie auch in der Präsenzlehre dran genommen werden würden. Danach sollte das Mikrofon wieder ausgeschaltet werden.&lt;/p&gt;
+&lt;h4 id=&#34;ton-und-bild&#34;&gt;Ton und Bild&lt;/h4&gt;
+&lt;p&gt;Im Gegensatz zur Übertragung der Stimme, ist die Videoübertragung nicht essentiell, kann aber helfen, die Distanz zwischen Lehrenden und Lernenden in der Online-Lehre zu verringern. Wenn begrenzte Ressourcen dazu führen, dass die Audioqualität leidet, dann lieber das Video ausschalten. Auch die Lernenden brauchen ihr Video normalerweise nicht zu übertragen (was für viele eventuell sowieso unangenehm ist), insofern sie als reguläre Teilnehmende an der Veranstaltung teilnehmen. Eine Videoübertragung einzelner TeilnehmerInnen macht gegebenenfalls dann Sinn, wenn diese etwas vorstellen oder geplante längere Redebeiträge vortragen.&lt;br&gt;
+Das Nutzen von Kopfhörern oder einem Headset vermeidet Rückkopplungen. Das Mikrofon sollte sich am besten auf der Höhe des Kopfes befinden, da die Teilnehmenden ansonsten zum Beispiel vor allem das Tippen hören.&lt;/p&gt;
+&lt;h4 id=&#34;benachrichtigungen&#34;&gt;Benachrichtigungen&lt;/h4&gt;
+&lt;p&gt;Genauso wie man normalerweise Benachrichtigungen an Computer and Handy ausschaltet bevor man in Präsenzlehre oder -unterricht geht, sollte man das auch während der Online-Lehre handhaben. Und lege doch den TeilnehmerInnen dasselbe nahe.&lt;/p&gt;
+&lt;h4 id=&#34;anweisungen&#34;&gt;Anweisungen&lt;/h4&gt;
+&lt;p&gt;Klare Anweisungen und Hilfestellungen sind in jeder Lehrform wichtig; in der Präsenzlehre merkt man allerdings durch die unmittelbare Interaktion viel schneller, wenn doch mal eine Aufgabenstellung nicht ganz klar war. Leite die TeilnehmerInnen durch möglichst genaue Anweisungen an, z.B. &amp;ldquo;schreibt eure Lösung in den Chat, wenn ihr mit der Aufgabe fertig seid&amp;rdquo; statt &amp;ldquo;gebt mir Bescheid, wenn ihr mit der Aufgabe fertig seid&amp;rdquo;.&lt;/p&gt;
+&lt;h3 id=&#34;interaktivität-fördern&#34;&gt;Interaktivität fördern&lt;/h3&gt;
+&lt;p&gt;Falls die Anwendung die Möglichkeit bietet, sind sogenannte Breakout Rooms, die es ermöglichen die Teilnehmenden in mehrere separate Gesprächsgruppen einzuteilen, eine großartige Möglichkeit, um Interaktivität und Gruppenarbeit zu fördern.&lt;br&gt;
+Kurze Abstimmungen direkt in der Online-Lehr-Anwendung helfen dabei, dass Teilnehmende aufmerksam bleiben und mitdenken (z.B. &amp;ldquo;Was erwartet ihr, wenn wir den folgenden Code ausführen?&amp;quot;). Abstimmungen aus mehreren Fragen, die in einem anderen Tool außerhalb der Anwendung angelegt werden und im Verlauf derselben oder der nächsten Sitzung besprochen werden, eignen sich vor allem zur Einbindung größerer Kursgruppen gut.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

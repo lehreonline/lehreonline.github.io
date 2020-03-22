@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Lehre Online</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>de</language><copyright>© 2020 Lehre Online</copyright><lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hu43351ab5de3cb0e13cec82578a5f4415_19606_300x300_fit_lanczos_2.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+  </channel>
+</rss>
